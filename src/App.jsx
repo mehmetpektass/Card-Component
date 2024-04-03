@@ -5,20 +5,18 @@ import List from './List.jsx';
 import State from './State.jsx';
 import Counter from './Counter.jsx';
 import OnChange from './OnChange.jsx';
+import ColorPicker from './ColorPicker.jsx';
 
 function App() {
   
   return (
     <>
-     <OnChange/>
+    <ColorPicker/>
     <br />
     <br/>
     <br/>
     <br/>
-    <br/>
-    <br/>
-    <br/>
-  
+    <OnChange/>
     <Counter/>
     <State/>
     <Card/>
