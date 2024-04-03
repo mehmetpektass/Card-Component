@@ -3,11 +3,20 @@ import Button from './Button.jsx';
 import Student from './Student.jsx';
 import List from './List.jsx';
 import State from './State.jsx';
+import Counter from './Counter.jsx';
 
 function App() {
   
   return (
     <>
+    <Counter/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <State/>
     <Card/>
     <Button/>
