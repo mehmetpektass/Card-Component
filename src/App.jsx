@@ -2,11 +2,13 @@ import Card from './Card.jsx' ;
 import Button from './Button.jsx';
 import Student from './Student.jsx';
 import List from './List.jsx';
+import State from './State.jsx';
 
 function App() {
   
   return (
     <>
+    <State/>
     <Card/>
     <Button/>
     <br />
