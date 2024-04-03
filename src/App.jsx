@@ -6,16 +6,22 @@ import State from './State.jsx';
 import Counter from './Counter.jsx';
 import OnChange from './OnChange.jsx';
 import ColorPicker from './ColorPicker.jsx';
+import Car from './Car.jsx';
 
 function App() {
   
   return (
     <>
-    <ColorPicker/>
+    <Car/>
     <br />
     <br/>
     <br/>
     <br/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <ColorPicker/>
     <OnChange/>
     <Counter/>
     <State/>
