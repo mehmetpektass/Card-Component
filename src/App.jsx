@@ -4,12 +4,13 @@ import Student from './Student.jsx';
 import List from './List.jsx';
 import State from './State.jsx';
 import Counter from './Counter.jsx';
+import OnChange from './OnChange.jsx';
 
 function App() {
   
   return (
     <>
-    <Counter/>
+     <OnChange/>
     <br />
     <br/>
     <br/>
@@ -17,6 +18,8 @@ function App() {
     <br/>
     <br/>
     <br/>
+  
+    <Counter/>
     <State/>
     <Card/>
     <Button/>
