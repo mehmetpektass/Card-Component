@@ -7,20 +7,22 @@ import Counter from './Counter.jsx';
 import OnChange from './OnChange.jsx';
 import ColorPicker from './ColorPicker.jsx';
 import Car from './Car.jsx';
+import Food from './Food.jsx';
 
 function App() {
   
   return (
     <>
+    <Food/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
     <Car/>
-    <br />
-    <br/>
-    <br/>
-    <br/>
-    <br />
-    <br/>
-    <br/>
-    <br/>
     <ColorPicker/>
     <OnChange/>
     <Counter/>
