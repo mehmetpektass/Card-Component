@@ -10,20 +10,46 @@ import Car from './Car.jsx';
 import Food from './Food.jsx';
 import FavouriteCar from './FavouriteCar.jsx';
 import ToDoList from './ToDoList.jsx';
+import Clock from './Clock.jsx';
 
 function App() {
   
   return (
     <>
+    <Clock/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br />
+    <br/>
+    <br/>
+    <br/>
     <ToDoList/>
-    <br />
-    <br/>
-    <br/>
-    <br/>
-    <br />
-    <br/>
-    <br/>
-    <br/>
     <FavouriteCar/>
     <Food/>
     <Car/>

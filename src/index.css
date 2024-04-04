@@ -147,4 +147,26 @@
   display: flex;
   align-items: center;
 }
-
+.clock-full-container{
+  background-image: url(assets/clock.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 900px;
+ 
+}
+.clock-container{
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+  align-items: center;
+  backdrop-filter: blur(6px);
+}
+.clock{
+  color: white;
+  font-size: 9rem;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.423);
+  text-align: center;
+  align-items: center;
+}
