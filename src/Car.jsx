@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 function Car(){
 
-    const [car , setCar] = useState({year:2023, make:" Porsche ", model:"GT3RS"})
+    const [car , setCar] = useState({year:2022, make:" Porsche ", model:"GT3RS"})
 
     const handleChangeYear = (event) =>{
         setCar(prevCar => ({...prevCar , year: event.target.value}))
