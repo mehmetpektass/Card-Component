@@ -52,7 +52,7 @@ function StopWatch(){
         <div className="stopwatch">
             <div className="stopwatch-display">{formatTime()}</div>
             <div className="stopwatch-control">
-                <button className="stopwatch-start-button" onClick={start}>Star</button>
+                <button className="stopwatch-start-button" onClick={start}>Start</button>
                 <button className="stopwatch-stop-button" onClick={stop}>Stop</button>
                 <button className="stopwatch-reset-button" onClick={reset}>Reset</button>
             </div>
