@@ -11,11 +11,13 @@ import Food from './Food.jsx';
 import FavouriteCar from './FavouriteCar.jsx';
 import ToDoList from './ToDoList.jsx';
 import Clock from './Clock.jsx';
+import StopWatch from './StopWatch.jsx';
 
 function App() {
   
   return (
     <>
+    <StopWatch/>
     <br />
     <br/>
     <br/>
