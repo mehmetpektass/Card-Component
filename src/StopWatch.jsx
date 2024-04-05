@@ -17,16 +17,16 @@ function StopWatch(){
 
     }
     const formatTime = () =>{
-
+        return "00:00:00"
     }
 
     return(
         <div className="stopwatch">
-            <div className="display">{formatTime()}</div>
-            <div className="control">
-                <button className="start-button" onClick={start}>Start</button>
-                <button className="stop-button" onClick={stop}>Stop</button>
-                <button className="reset-button" onClick={reset}>Reset</button>
+            <div className="stopwatch-display">{formatTime()}</div>
+            <div className="stopwatch-control">
+                <button className="stopwatch-start-button" onClick={start}>Start</button>
+                <button className="stopwatch-stop-button" onClick={stop}>Stop</button>
+                <button className="stopwatch-reset-button" onClick={reset}>Reset</button>
             </div>
         </div>
     );
